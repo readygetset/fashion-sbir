@@ -29,9 +29,20 @@ Prerequisites:
 - Pytorch
 - ftfy
 
+environment.yaml에 사용한 환경이 명시되어 있으므로 다음과 같이 가상환경을 생성하여 환경을 쉽게 구축할 수 있다. 
+``` 
+conda env create -f environment.yaml
+conda activate fashion_sketch
+
+  
 ## 사용 방법
 
-Retrieval_Demo.ipynb 실행
+모델을 `Train` 및 `Test`를 하기 위해선 main.ipynb를 실행한다. 
+만일 데모를 실행시키고 싶다면 다음 명령어를 실행한다. 
+
+```
+python demo.py
+
 
 ## 예시 결과
 **1. edge map과 text caption을 주었을 경우**
