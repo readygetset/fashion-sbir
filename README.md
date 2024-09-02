@@ -67,6 +67,6 @@ edge map과 text caption을 함께 주었을 때 원하는 이미지가 가장 �
 이번에는 edge map이 아닌 실제 인간이 그린 스케치로 얼마나 좋은 성능을 내는지 확인하기 위해 데모를 제작했다. 아래는 하나의 예시로, '보테가 베네타' 가방을 그렸을 때 나오는 이미지 결과이다. 
 
 ## 팀원
-- [정혜민] (https://github.com/hmin27) : 모델링, 코드 구현
-- [서연우] (https://github.com/readygetset) : 모델 학습, 데모 제작
-- [이민하] (https://github.com/mlnha) : 데이터셋 구축
+- [정혜민*](https://github.com/hmin27) : 모델링, 코드 구현, 아이디어 제안 
+- [서연우](https://github.com/readygetset) : 모델 학습, 데모 제작
+- [이민하](https://github.com/mlnha) : 데이터셋 구축
