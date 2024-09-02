@@ -33,7 +33,7 @@ environment.yaml에 사용한 환경이 명시되어 있으므로 다음과 같�
 ``` 
 conda env create -f environment.yaml
 conda activate fashion_sketch
-
+```
   
 ## 사용 방법
 
@@ -42,7 +42,7 @@ conda activate fashion_sketch
 
 ```
 python demo.py
-
+```
 
 ## 예시 결과
 **1. edge map과 text caption을 주었을 경우**
