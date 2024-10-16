@@ -12,7 +12,7 @@ We built a triplet dataset consisting of **image-sketch-text pairs**. To generat
 
 A challenge we faced was extracting clear edge maps for **white-colored items** due to the white background in the original images. To address this issue, we applied additional post-processing methods for images containing descriptive text with words like "white, bright, light, pale, ivory, cream, sky, gray." Specifically, **CLAHE** and **histogram equalization** techniques were employed to enhance edge visibility.
 
-### ▶️ 모델링
+### ▶️ Modeling
 
 We leveraged **CLIP's vision and text encoders** to obtain embeddings for images, sketches, and text. We mixed the sketch and text embeddings, then aligned them with the image embeddings through **contrastive learning** for metric learning.
 
