@@ -42,24 +42,24 @@ python demo.py
 
 ## Example Results
 ### 1. Retrieving an Image with an Edge Map and Text Caption
-![image](https://github.com/user-attachments/assets/2b06e9aa-8e01-4a36-9a80-18f7dbbd57e2)
+![image](assets/colors.png)
 ![image-2](https://github.com/user-attachments/assets/0b12b611-b2d0-4fa6-86d1-4bd49ed4790a)
 Providing an edge map along with a text caption helps the model retrieve the most relevant image first, with other results also showing high relevance.
 
 ### 2. Effect of Color Variations
-![image-3](https://github.com/user-attachments/assets/6072a7d9-00fc-41b2-bb8c-b05a6d69ff65)
+![image-3](assets/colors.png)
 Given the sketch of a long trouser, the model retrieves the relevant images. Adding color-specific text descriptions (e.g., "a long red trouser") allows the model to find trousers that match the specified color.
 
 ### 3. Incorporating Brand Names in Text Queries
-![image-4](https://github.com/user-attachments/assets/054911cb-6a76-49ef-b38f-0a9e6b35fdd4)
+![image-4](assets/brand_names.png)
 Since some datasets contain luxury brand names, we tested the effect of including brand names in text captions. The model successfully retrieves images corresponding to the mentioned brand. For example, when queried with "Louis Vuitton," the results prominently feature items with recognizable patterns associated with the brand.
 
 ### 4. Comparison: With vs. Without Captions
-![image-5](https://github.com/user-attachments/assets/f183cd00-09c1-417c-b340-887485aaccda)
+![image-5](assets/caption.png)
 We tested how the presence of captions impacts the search results. Given the same clutch bag sketch, one query included a caption ("a clutch") while the other left it blank. Without the caption, the model struggled to retrieve similar bags, but with the caption, it retrieved clutch bags or similar items more accurately.
 
 ### 5. Demo
-![image-6](https://github.com/user-attachments/assets/eb4f3e4e-0c66-46f2-83eb-e8858bc23f2a)
+![image-6](assets/demo.gif)
 We created a demo to test the model’s performance with human-drawn sketches. Below is an example where a hand-drawn sketch of a Bottega Veneta bag was used, and the model successfully retrieved relevant images.
 
 ## Team Members
