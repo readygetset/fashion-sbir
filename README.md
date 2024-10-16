@@ -58,7 +58,7 @@ Since some datasets contain luxury brand names, we tested the effect of includin
 We tested how the presence of captions impacts the search results. Given the same clutch bag sketch, one query included a caption ("a clutch") while the other left it blank. Without the caption, the model struggled to retrieve similar bags, but with the caption, it retrieved clutch bags or similar items more accurately.
 
 ### 5. Demo
-![image-6](assets/demo.gif)
+![image-6](assets/demo.png)
 We created a demo to test the model’s performance with human-drawn sketches. Below is an example where a hand-drawn sketch of a Bottega Veneta bag was used, and the model successfully retrieved relevant images.
 
 ## Team Members
