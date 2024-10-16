@@ -43,7 +43,6 @@ python demo.py
 ## Example Results
 ### 1. Retrieving an Image with an Edge Map and Text Caption
 ![image](assets/colors.png)
-![image-2](https://github.com/user-attachments/assets/0b12b611-b2d0-4fa6-86d1-4bd49ed4790a)
 Providing an edge map along with a text caption helps the model retrieve the most relevant image first, with other results also showing high relevance.
 
 ### 2. Effect of Color Variations
