@@ -1,4 +1,6 @@
 # Fashion SBIR
+> 🏆 **2024 AIKU Conference Best Award Winner!**
+> This project was conducted as part of the AIKU activities during the 2024 summer semester.
 
 This project introduces a **Sketch-Based Image Retrieval (SBIR)** system, designed to enhance fashion search by incorporating both **user-drawn sketches** and **text-based queries**. Traditional search methods, relying solely on text or images, often fall short when users struggle to accurately describe or identify specific styles, colors, or items. By integrating sketch input and natural language descriptions, this system provides a more intuitive and efficient way to retrieve desired fashion items, bridging the gap between visual perception and textual expression.
 
